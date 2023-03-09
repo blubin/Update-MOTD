@@ -1,0 +1,5 @@
+#!/bin/sh
+
+if [ -f /etc/update-motd.d/01-legal.txt ]; then
+        cat /etc/update-motd.d/01-legal.txt
+fi
