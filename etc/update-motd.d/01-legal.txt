@@ -1,0 +1,8 @@
+-----------------------------------------------------------------
+Access to this machine has been registered and recorded.
+Usage of this system is restricted to authorized personal only.
+This machine makes use of security mechanisms intended to prevent
+both persons and devices from establishing unauthorised access or
+making unauthorized use.  Legal action may result from
+unauthorised access or attempts at such.
+-----------------------------------------------------------------
