@@ -19,8 +19,11 @@ You may not want to display the rather verbose standard "help" text.  Stopping t
 2. `sudo mv 10-help-text \#10-help-text`
 
 ## Removing the standard "motd-news" text
-You may not want to display the rather verbose standard "motd-news" text.  Stopping this is as simple as moving the file aside:
+You may not want to display the rather verbose standard "motd-news" text.  
 
+You can edit `/etc/default/motd-news` and set `ENABLED=0`
+
+An alternative is to simply move the script aside:
 1. `cd /etc/update-motd.d`
 2. `sudo mv 50-motd-news \#50-motd-news`
 
