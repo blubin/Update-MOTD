@@ -1,0 +1,9 @@
+#!/bin/sh
+
+stamp="/var/lib/update-notifier/updates-available"
+
+[ ! -r "$stamp" ] || cat "$stamp" | grep -v "Expanded Security Maintenance" | gre\
+p -v "ESM" | grep "\S"
+
+find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/u\
+pdate-notifier/notify-updates-outdated
