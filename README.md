@@ -22,4 +22,10 @@ You may not want to display the rather verbose standard "help" text.  Stopping t
 You may not want to display the rather verbose standard "motd-news" text.  Stopping this is as simple as moving the file aside:
 
 1. `cd /etc/update-motd.d`
-2. `sudo mv 50-motd-news \#150-motd-news`
+2. `sudo mv 50-motd-news \#50-motd-news`
+
+## Removing the standard "esm-announce" text
+You may not want to display the rather verbose standard "esm-announce" text.  Stopping this is as simple as moving the file aside:
+
+1. `cd /etc/update-motd.d`
+2. `sudo mv 88-esm-announce \#88-esm-announce`
