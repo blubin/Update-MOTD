@@ -32,3 +32,9 @@ You may not want to display the rather verbose standard "esm-announce" text.  St
 
 1. `cd /etc/update-motd.d`
 2. `sudo mv 88-esm-announce \#88-esm-announce`
+
+## Removing Ubuntu Nag about ESM
+On Ubuntu, you may not want to dispaly the annoying Nag about signing up for ESM.  If so:
+
+1. As Root, replace the `/etc/upate-motd.d/90-updates-available` script with the one in this repository.  You may wish keep a backup of the original file.
+
