@@ -4,7 +4,7 @@ Simple instructions for customizing Debian/Ubuntu Message of the Day Content
 ## Context
 On Debian/Ubuntu, the message displayed to the user upon login is built using the scripts in `/etc/update-motd.d`.  You can modify and augment these scripts to customize this behavior.
 
-## Adding a legal disclaimer
+## Adding a legal access warning
 To add a legal disclaimer:
 1. Download `01-legal` and `01-legal.txt`into the `etc/update-motd.d` (you will need root privileges)
 2. `cd /etc/update-motd.d`
